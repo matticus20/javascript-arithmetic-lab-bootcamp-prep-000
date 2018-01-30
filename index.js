@@ -13,3 +13,13 @@ console.log(number)
 
 add5()
 console.log(number)
+
+number = 10.567
+
+function makeInt() {
+  parseInt(number)
+}
+
+function preserveDecimal() {
+  parseFloat(number)
+}
