@@ -27,13 +27,11 @@ function dec(n) {
   return n -= 1
 }
 
-n = 20
+n = 2.222
 
 function makeInt(n) {
-  return parseInt(n)
+  return parseInt(n, 10)
 }
-
-n = 2.222
 
 function preserveDecimal(n) {
   return parseFloat(n)
