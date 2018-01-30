@@ -20,11 +20,11 @@ function divide(a, b) {
 var n = 10
 
 function inc(n) {
-  return n ++
+  return n += 1
 }
 
 function dec(n) {
-  return n --
+  return n -= 1
 }
 
 n = 20
