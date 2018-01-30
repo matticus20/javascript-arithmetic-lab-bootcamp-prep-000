@@ -20,27 +20,19 @@ function divide(a, b) {
 var n = 10
 
 function inc(n) {
-  n++
+  return n++
 }
-inc(n)
-console.log(n)
 
 function dec(n) {
-  n--
+  return n--
 }
-dec(n)
-console.log(n)
 
 n = 2.222
 
 function makeInt(n) {
-  parseInt(n)
+  return parseInt(n)
 }
-makeInt(n)
-console.log(n)
 
 function preserveDecimal(n) {
-  parseFloat(n)
+  return parseFloat(n)
 }
-preserveDecomal(n)
-console.log(n)
